@@ -7,7 +7,7 @@ public class Ejercicio20 {
     los números desde A hasta B e indicar cuantos hay que sean pares.
     */
 
-    public static void main(String[] args) {
+    public static void ejercicio20() {
 
         Scanner input = new Scanner(System.in);
         int numA, numB, pares = 0;
@@ -27,5 +27,9 @@ public class Ejercicio20 {
         }
 
         System.out.println("Cantidad de número pares = " + pares);
+    }
+    
+    public static void main(String[] args) {
+        ejercicio20();
     }
 }

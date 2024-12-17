@@ -7,7 +7,7 @@ public class Ejercicio19 {
     por teclado.
     */
 
-    public static void main(String[] args) {
+    public static void ejercicio19() {
 
         Scanner input = new Scanner(System.in);
 
@@ -18,5 +18,9 @@ public class Ejercicio19 {
           if (i % 3 == 0) multiplos++;
         }
         System.out.printf("Hay %d números múltiplos de 3.%n", multiplos);
+    }
+    
+    public static void main(String[] args) {
+        ejercicio19();        
     }
 }
